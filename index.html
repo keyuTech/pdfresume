@@ -11,7 +11,10 @@
 
 <body>
   <main>
-    <aside>
+    <aside class="clearfix">
+      <div class="name">
+        王克宇
+      </div>
       <div class="information">
         <div class="title">
           <h2>基本信息</h2>
@@ -92,32 +95,150 @@
         </div>
       </div>
       <div class="education">
-        <div class="edutime"></div>
-        <div class="school"></div>
-        <div class="discipline"></div>
+        <div class="title">
+          <h2>教育背景</h2>
+        </div>
+        <div class="edutime">
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-date"></use>
+          </svg>
+          <span>2013.9-2017.7</span>
+        </div>
+        <div class="school">
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-school1"></use>
+          </svg>
+          <span>北京科技大学天津学院</span>
+        </div>
+        <div class="discipline">
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-school"></use>
+          </svg>
+          <span>通信工程（本科）</span>
+        </div>
       </div>
       </div>
     </aside>
     <section>
       <div class="works">
-        <div class="musicPage"></div>
-        <div class="neteaseMusic"></div>
-        <div class="doubanMovie"></div>
-        <div class="personalPage"></div>
-        <div class="sketchPad"></div>
-        <div class="pikachu"></div>
-        <div class="homePage"></div>
+        <div class="titleContainer">
+          <div class="iconContainer">
+            <svg class="icon" aria-hidden="true">
+              <use xlink:href="#icon-list"></use>
+            </svg>
+          </div>
+          <span> 作 品 </span>
+          <div class="line"></div>
+        </div>
+        <div class="musicPage item">
+          <h4>PC端音乐网站</h4>
+          <div class="pic">
+            <img src="./pic/webMusic.jpg">
+          </div>
+          <div class="dis">
+            <div class="links">
+              <p class="preview">
+                <span>预览链接：</span>
+                <a href="https://wky0615.github.io/web-music/index.html">https://wky0615.github.io/web-music/index.html</a>
+              </p>
+              <p class="source">
+                <span>源码链接：</span>
+                <a href="https://github.com/wky0615/web-music">https://github.com/wky0615/web-music</a>
+              </p>
+            </div>
+            <div class="workdis">
+              <span>项目简介：</span>
+              <p>本项目使用面向对象方法，通过jQuery实现以下功能： 初始化时随机播放音乐、在专辑栏展示由API获取的专辑信息、点击任意专辑即可随机播放本专辑下歌曲、上一曲、下一曲、暂停/播放、音量调节功能均可使用、展示当前音乐总时长及当前时间，拖动进度条可改变当前播放时间、展示歌词。</p>
+            </div>
+            <div class="skillstack">
+              <span>技术栈：</span>
+              <p>HTML 5+CSS 3+jQuery+AJAX+模块化+MVC</p>
+            </div>
+          </div>
+        </div>
+        <div class="neteaseMusic item">
+          <h4>移动端网易云音乐</h4>
+          <div class="pic">
+            <img src="./pic/NetEaseMusic.jpg">
+          </div>
+          <div class="dis">
+            <div class="links">
+              <p class="preview">
+                <span>预览链接：</span>
+                <a href="https://wky0615.github.io/NetEaseMusic/src/index.html">https://wky0615.github.io/NetEaseMusic/src/index.html</a>
+              </p>
+              <p class="source">
+                <span>源码链接：</span>
+                <a href="https://github.com/wky0615/NetEaseMusic">https://github.com/wky0615/NetEaseMusic</a>
+              </p>
+            </div>
+            <div class="workdis">
+              <span>项目简介：</span>
+              <p>移动端具有音乐播放器的基本功能。本应用通过tabs的切换实现推荐音乐、热歌榜以及搜索功能的相互切换，同时完成了播放器页面的功能，此页面具有模拟唱片机播放的效果，以此展示歌曲封面，且实现了点击封面区域暂停/播放歌曲的功能。</p>
+            </div>
+            <div class="skillstack">
+              <span>技术栈：</span>
+              <p>HTML 5+CSS 3+jQuery+AJAX+LeanCloud+七牛+MVC</p>
+            </div>
+          </div>
+        </div>
+        <div class="doubanMovie item">
+            <h4>豆豆豆瓣电影</h4>
+            <div class="pic">
+              <img src="./pic/doubanMovie.jpg">
+            </div>
+            <div class="dis">
+              <div class="links">
+                <p class="preview">
+                  <span>预览链接：</span>
+                  <a href="https://wky0615.github.io/doubanmovie/index.html">https://wky0615.github.io/doubanmovie/index.html</a>
+                </p>
+                <p class="source">
+                  <span>源码链接：</span>
+                  <a href="https://github.com/wky0615/doubanmovie">https://github.com/wky0615/doubanmovie</a>
+                </p>
+              </div>
+              <div class="workdis">
+                <span>项目简介：</span>
+                <p>本项目要实现移动端仿豆瓣电影的单页应用，利用豆瓣提供的豆瓣电影API实现以下功能： 展示豆瓣评分排名前250的电影、展示北美电影排行榜、提供搜索电影功能，将搜索到的相关的电影展示出来、页面上所展示的电影条目都可以通过点击跳转到豆瓣电影的详细介绍。</p>
+              </div>
+              <div class="skillstack">
+                <span>技术栈：</span>
+                <p>HTML 5+CSS 3+jQuery+AJAX+MVC</p>
+              </div>
+            </div>
+        </div>
+        <div class="personalPage item"></div>
+        <div class="sketchPad item"></div>
+        <div class="pikachu item"></div>
+        <div class="homePage item"></div>
       </div>
       <div class="skills">
-
+        <div class="titleContainer">
+          <div class="iconContainer">
+            <svg class="icon" aria-hidden="true">
+              <use xlink:href="#icon-jineng"></use>
+            </svg>
+          </div>
+          <span> 技 能 </span>
+          <div class="line"></div>
+        </div>
       </div>
       <div class="award">
-
+        <div class="titleContainer">
+          <div class="iconContainer">
+            <svg class="icon" aria-hidden="true">
+              <use xlink:href="#icon-jiangxiang"></use>
+            </svg>
+          </div>
+          <span> 奖 项 </span>
+          <div class="line"></div>
+        </div>
       </div>
   </main>
   </section>
 
-  <script src="//at.alicdn.com/t/font_625455_60sk7hebzj16ecdi.js"></script>
+  <script src="//at.alicdn.com/t/font_625455_2tfgsvfa98bprpb9.js"></script>
 </body>
 
 </html>

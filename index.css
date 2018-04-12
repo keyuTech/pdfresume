@@ -4,8 +4,9 @@
   font-size: 14px;
   box-sizing: border-box;
 }
+
 a {
-  color: #fff;
+  color: inherit;
 }
 
 .clearfix {
@@ -17,10 +18,12 @@ a {
 main {
   width: 820px;
   margin: 0 auto;
-  border: 1px solid red;
+  border: 1px solid #888;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
 }
 
 aside {
+  float: left;
   width: 270px;
   font-size: 14px;
   color: #fff;
@@ -32,7 +35,7 @@ aside {
 aside .title {
   position: absolute;
   left: 0px;
-  top: 30px;
+  top: 20px;
   width: 280px;
   padding-left: 30px;
   background-color: #084675;
@@ -44,9 +47,17 @@ aside h2 {
   font-size: 18px;
 }
 
+aside .name {
+  font-size: 30px;
+}
+
 aside .information {
   margin-top: 60px;
   padding-top: 30px;
+}
+
+aside .information .title {
+  top: 80px;
 }
 
 aside .icon {
@@ -57,26 +68,111 @@ aside .icon {
   overflow: hidden;
   margin-right: 5px;
 }
+
 aside .information div {
   margin-bottom: 14px;
 }
+
 aside .page {
-  padding-top: 30px;
+  padding-top: 10px;
 }
+
 aside .page div {
   padding: 8px 0;
 }
+
 aside .objective {
-  padding-top: 100px;
+  padding-top: 80px;
   position: relative;
 }
+
 aside .objective div {
   padding: 10px 0;
 }
+
 aside .objective .title {
   padding: 0 0 0 30px;
   left: -20px;
 }
+
+aside .education {
+  position: relative;
+  padding-top: 80px;
+}
+
+aside .education .title {
+  padding: 0 0 0 30px;
+  left: -20px;
+}
+
+aside .education div {
+  padding: 10px 0;
+}
+
 section {
+  padding: 30px 30px 30px 310px;
   color: #878686;
+}
+
+section .icon {
+  width: 1.2em;
+  height: 1.2em;
+  vertical-align: -0.15em;
+  fill: #fff;
+  overflow: hidden;
+}
+
+section .titleContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+section .titleContainer span {
+  color: #0b70bd;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+section .titleContainer .iconContainer {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #0b70bd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+section .titleContainer .line {
+  border: 1px solid #0b70bd;
+  width: 360px;
+  margin-left: 20px;
+}
+
+section .works .item {
+  margin: 10px;
+}
+
+section .works .pic img {
+  width: 460px;
+  height: 240px;
+}
+
+section .works h4 {
+  color: #4b4b4b;
+  font-size: 15px;
+}
+section .works .dis {
+  margin: 5px 0;
+}
+section .works a {
+  text-decoration: none;
+}
+section .works .workdis {
+  padding: 5px 0;
+}
+section .works span {
+  color: #0b70bd;
 }
