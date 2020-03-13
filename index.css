@@ -26,7 +26,7 @@ main {
 aside {
   float: left;
   width: 270px;
-  height: 2828px;
+  height: 2315px;
   font-size: 14px;
   color: #fff;
   background-color: #0b70bd;
@@ -181,12 +181,13 @@ section .titleContainer .iconContainer {
 
 section .titleContainer .line {
   border: 1px solid #0b70bd;
-  width: 360px;
+  width: 320px;
   margin-left: 20px;
 }
 
 section .works .item {
-  margin: 10px;
+  margin: 20px 10px;
+  padding-bottom: 10px;
 }
 
 section .works .item .icon {
@@ -226,9 +227,17 @@ section .works a {
 }
 
 section .works .workdis {
-  padding: 5px 0;
+  padding: 10px 0;
+}
+
+section .works .workdis ol {
+  margin-left: 20px;
 }
 
 section .works span {
   color: #0b70bd;
+}
+
+section.worksWrapper {
+  margin-top: 30px;
 }
