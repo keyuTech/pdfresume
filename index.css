@@ -226,12 +226,16 @@ section .works a {
   text-decoration: none;
 }
 
-section .works .workdis {
+section .works .worksId {
   padding: 10px 0;
 }
 
-section .works .workdis ol {
+section .works .worksId ol {
   margin-left: 20px;
+}
+
+section .works .worksId .component {
+  text-decoration: underline;
 }
 
 section .works span {
