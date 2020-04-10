@@ -123,12 +123,17 @@
             <li class="skillItem">JavaScript - 在不使用框架的情况下，能够使用原生 JS 常用 API 完成部分需求</li>
             <li class="skillItem">React.js - 熟悉 React.js，参与过大型 React 项目的开发</li>
             <li class="skillItem">ES6 - 了解 ES6 的部分新特性，并能够在实际项目中使用</li>
+            <li class="skillItem">TypeScript - 熟悉TypeScript，并使用其开发开源UI库</li>
             <li class="skillItem">Webpack - 了解 Webpack 的基础配置，并使用 Webpack
                                   搭建开源项目</li>
-            <li class="skillItem">Node.js - 了解 Node.js 一些知识，能够使用 Node.js 搭建小服务器，根据请求的 URL 返回指定的数据</li>
-            <li class="skillItem">MVC - 了解 MVC 设计模式理念，并能够应用到实际项目中</li>
             <li class="skillItem">了解客户端缓存、Cookie、session 等知识</li>
-            <li class="skillItem">了解测试驱动开发（TDD），使用过mocha、chai、sinon等工具</li>
+            <li class="skillItem">
+              Node.js - 了解 Node.js ，使用 Node.js 开发了一款简易的命令行 TODO List 工具
+              <a href="https://github.com/wky0615/SEELE-TODO" target="_blank">
+                SEELE -TODO</a>
+            </li>
+            <li class="skillItem">了解测试驱动开发（TDD），了解mocha、chai、sinon和jest
+                                  等测试库和工具的使用</li>
           </ul>
         </div>
       </div>
@@ -144,6 +149,24 @@
 <!--      </div>-->
     </aside>
     <section>
+      <div class="intro">
+        <div class="titleContainer">
+          <div class="iconContainer">
+            <svg class="icon" aria-hidden="true">
+              <use xlink:href="#icon-list"></use>
+            </svg>
+          </div>
+          <span> 个 人 简 介 </span>
+          <div class="line"></div>
+        </div>
+        <div class="item">
+            <p>主要使用 JavaScript 和 React.js 进行开发工作，2年前端开发经验，参与过大型Web商城应用的开发，在团队中利用最新技术解决业务发展过程中各种业务场景问题。熟练使用 HTML5、CSS3，
+              熟悉 TypeScript ，使用 TypeScript 及 React.js 开发了开源UI库 - SEELE-UI，在开发过程中熟练使用 ES6 语法，有 Webpack 配置及打包经验，使用 Node.js 开发过个人项目。
+              热爱前端技术，关注前端发展热点。</p>
+        </div>
+      </div>
+    </section>
+    <section>
       <div class="works experience">
         <div class="titleContainer">
           <div class="iconContainer">
@@ -155,10 +178,17 @@
           <div class="line"></div>
         </div>
         <div class="company item">
-          <h4><img class="icon" src="pic/unity.svg"/>
-            Unity Technology - Vendor(2018.11-2020.2)</h4>
+          <h4>
+            <span>
+              <img class="icon" src="pic/unity.svg"/>
+              Unity Technology - <span class="title">驻场Web前端开发</span>
+            </span>
+            <span>
+              (2018.11-2020.2)
+            </span>
+          </h4>
           <div class="description">
-            作为Unity Technology驻场开发开展工作，负责Unity全球资源商城Unity Asset Store的开发工作
+            作为 Unity Technology 驻场开发开展工作，负责 Unity 全球资源商城 Unity Asset Store 的开发工作
           </div>
           <div class="dis">
             <div class="links">
@@ -169,13 +199,13 @@
                 预览链接
               </a>
             </div>
-            <div class="worksId">
+            <div class="worksId introduction">
               <svg class="icon" aria-hidden="true">
                 <use xlink:href="#icon-card"></use>
               </svg>
               <span>项目简介：</span>
-              <p>Unity Asset Store是Unity所属的资源商城，服务于全球数百万Unity
-                 开发者和数万资源供应商，提供数十万资源包供用户购买和下载</p>
+              <p>Unity Asset Store 是 Unity 所属的资源商城，服务于全球数百万 Unity
+                  开发者和数万资源供应商，提供数十万资源包供用户购买和下载</p>
             </div>
             <div class="worksId">
               <svg class="icon" aria-hidden="true">
@@ -183,9 +213,12 @@
               </svg>
               <span>工作内容：</span>
               <ol>
-                <li>参与Unity Asset Store V2版本更新</li>
-                <li>负责部分常用组件的开发工作</li>
+                <li>全程参与了 Unity Asset Store V2 版本更新</li>
+                <li>与 PM 及 Designer 沟通确定需求</li>
                 <li>根据设计稿实现页面及用户交互</li>
+                <li>负责 Publisher page、Icon-collective page、Partner
+                    page 等页面的开发</li>
+                <li>负责组件库中 Gallery、QuickLook、Price 等部分常用组件的开发工作</li>
               </ol>
             </div>
             <div class="skillstack">
@@ -198,12 +231,19 @@
           </div>
         </div>
         <div class="company item">
-          <h4>上海济增信息科技有限公司(2018.05-2018.11)</h4>
+          <h4>
+            <span>
+              上海济增信息科技有限公司 - <span class="title">前端开发工程师</span>
+            </span>
+            <span>
+              (2018.05-2018.11)
+            </span>
+          </h4>
           <div class="description">
             负责公司后台管理系统以及微信小程序的开发和维护
           </div>
           <div class="dis">
-            <div class="worksId">
+            <div class="worksId introduction">
               <svg class="icon" aria-hidden="true">
                 <use xlink:href="#icon-card"></use>
               </svg>
@@ -232,7 +272,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section class="openSource-container">
       <div class="works experience">
         <div class="titleContainer">
           <div class="iconContainer">
@@ -244,7 +284,7 @@
           <div class="line"></div>
         </div>
         <div class="openSource item">
-          <h4>SEELE UI (开发中)</h4>
+          <h4>SEELE UI</h4>
           <div class="dis">
             <div class="links">
               <a href="http://www.wangkeyu.tech/seele-ui/#/" target="_blank">
@@ -253,19 +293,19 @@
                 </svg>
                 文档链接
               </a>
-              <a href="https://github.com/wky0615/seele-ui">
+              <a href="https://github.com/wky0615/seele-ui" target="_blank">
                 <svg class="icon" aria-hidden="true">
                   <use xlink:href="#icon-code"></use>
                 </svg>
                 源码链接
               </a>
             </div>
-            <div class="worksId">
+            <div class="worksId introduction">
               <svg class="icon" aria-hidden="true">
                 <use xlink:href="#icon-card"></use>
               </svg>
               <span>项目简介：</span>
-              <p>SEELE是一套基于React和TypeScript、使用React Hooks和函数式编程的开源UI库，包括
+              <p>SEELE-UI 是一套基于 React 和 TypeScript 、使用 React Hooks 和函数式编程的开源UI库，包括
                 <a class="component"
                    href="http://www.wangkeyu.tech/seele-ui/#/button"
                    target="_blank">Button</a>、
@@ -277,7 +317,7 @@
                    target="_blank">Dialog</a>、
                 <a class="component"
                    href="http://www.wangkeyu.tech/seele-ui/#/form"
-                   target="_blank">Form</a>等常用组件
+                   target="_blank">Form</a> 等常用组件
               </p>
             </div>
             <div class="worksId">
@@ -286,7 +326,7 @@
               </svg>
               <span>工作内容：</span>
               <ol>
-                <li>使用React及TypeScript开发具有通用性的UI组件</li>
+                <li>使用 React 及 TypeScript 开发具有通用性的UI组件</li>
                 <li>编写具有可读性的官方文档</li>
               </ol>
             </div>
@@ -296,6 +336,44 @@
               </svg>
               <span>技术栈：</span>
               <p>React.js + TypeScript + Sass + Webpack</p>
+            </div>
+          </div>
+        </div>
+        <div class="openSource item">
+          <h4>SEELE TODO</h4>
+          <div class="dis">
+            <div class="links">
+              <a href="https://github.com/wky0615/seele-ui" target="_blank">
+                <svg class="icon" aria-hidden="true">
+                  <use xlink:href="#icon-code"></use>
+                </svg>
+                源码链接
+              </a>
+            </div>
+            <div class="worksId introduction">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-card"></use>
+              </svg>
+              <span>项目简介：</span>
+              <p>SEELE-TODO 是基于 Node.js 制作的一个简单易用的命令行 todo-list 工具。
+              </p>
+            </div>
+            <div class="worksId">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-card"></use>
+              </svg>
+              <span>工作内容：</span>
+              <ol>
+                <li>使用 Node.js 编写 add、clear 和 show 功能</li>
+                <li>使用 Jest 对代码进行单元测试</li>
+              </ol>
+            </div>
+            <div class="skillstack">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-chilun2"></use>
+              </svg>
+              <span>技术栈：</span>
+              <p>Node.js</p>
             </div>
           </div>
         </div>
@@ -314,9 +392,9 @@
         </div>
         <div class="musicPage item">
           <h4>PC端音乐网站</h4>
-          <div class="pic">
-            <img src="./pic/webMusic.jpg">
-          </div>
+<!--          <div class="pic">-->
+<!--            <img src="./pic/webMusic.jpg">-->
+<!--          </div>-->
           <div class="dis">
             <div class="links">
               <a href="https://wky0615.github.io/web-music/index.html" target="_blank">
@@ -332,7 +410,7 @@
                 源码链接
               </a>
             </div>
-            <div class="worksId">
+            <div class="worksId introduction">
               <svg class="icon" aria-hidden="true">
                 <use xlink:href="#icon-card"></use>
               </svg>
@@ -344,7 +422,7 @@
                 <use xlink:href="#icon-chilun2"></use>
               </svg>
               <span>技术栈：</span>
-              <p>HTML 5+CSS 3+jQuery+AJAX+模块化+MVC</p>
+              <p>HTML 5 + CSS 3 + jQuery + AJAX + 模块化 + MVC</p>
             </div>
           </div>
         </div>
@@ -386,9 +464,9 @@
 <!--        </div>-->
         <div class="sketchPad item">
           <h4>PC端+移动端画板</h4>
-          <div class="pic">
-            <img src="./pic/sketchpad.jpg">
-          </div>
+<!--          <div class="pic">-->
+<!--            <img src="./pic/sketchpad.jpg">-->
+<!--          </div>-->
           <div class="dis">
             <div class="links">
               <a href="https://wky0615.github.io/Sketchpad/index.html" target="_blank">
@@ -404,19 +482,19 @@
                 源码链接
               </a>
             </div>
-            <div class="worksId">
+            <div class="worksId introduction">
               <svg class="icon" aria-hidden="true">
                 <use xlink:href="#icon-card"></use>
               </svg>
               <span>项目简介：</span>
-              <p>通过使用Canvas完成的一个画板项目，画板提供了三种粗细、四种颜色的画笔供用户选择，同时也具有橡皮擦功能，在用户完成画作后可以选择清空画板或者下载自己的作品到本地。本项目使用原生JS实现，在开发过程中本人了解、熟悉了Canvas的使用。</p>
+              <p>通过使用 Canvas 完成的一个画板项目，画板提供了三种粗细、四种颜色的画笔供用户选择，同时也具有橡皮擦功能，在用户完成画作后可以选择清空画板或者下载自己的作品到本地。本项目使用原生JS实现，在开发过程中本人了解、熟悉了Canvas的使用。</p>
             </div>
             <div class="skillstack">
               <svg class="icon" aria-hidden="true">
                 <use xlink:href="#icon-chilun2"></use>
               </svg>
               <span>技术栈：</span>
-              <p>HTML 5+CSS 3+原生JS+Canvas</p>
+              <p>HTML 5 + CSS 3+ JavaScript + Canvas</p>
             </div>
           </div>
         </div>
