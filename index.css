@@ -18,134 +18,22 @@ a {
 main {
   width: 820px;
   margin: 0 auto;
-  border: 1px solid #888;
+  /*border: 1px solid #888;*/
   /* box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75); */
   overflow: hidden;
 }
 
-aside {
-  float: left;
-  width: 270px;
-  height: 2315px;
-  font-size: 14px;
-  color: #fff;
-  background-color: #0b70bd;
-  padding: 20px;
-  position: relative;
-}
-
-aside .title {
-  position: absolute;
-  left: 0;
-  top: 20px;
-  width: 280px;
-  padding-left: 30px;
-  background-color: #084675;
-}
-
-aside h2 {
-  height: 54px;
-  line-height: 54px;
-  font-size: 18px;
-}
-
-aside .name {
-  font-size: 30px;
-}
-
-aside ul {
-  padding-left: 20PX
-}
-
-aside li {
-  padding: 5px;
-}
-
-aside .information {
-  margin-top: 60px;
-  padding-top: 30px;
-}
-
-aside .information .title {
-  top: 80px;
-}
-
-aside .icon {
-  width: 1.2em;
-  height: 1.2em;
-  vertical-align: -0.15em;
-  fill: #fff;
-  overflow: hidden;
-  margin-right: 5px;
-}
-
-aside .information div {
-  margin-bottom: 14px;
-}
-
-aside .page {
-  padding-top: 10px;
-}
-
-aside .page div {
-  padding: 8px 0;
-}
-
-aside .objective {
-  padding-top: 80px;
-  position: relative;
-}
-
-aside .objective div {
-  padding: 10px 0;
-}
-
-aside .objective .title {
-  padding: 0 0 0 30px;
-  left: -20px;
-}
-
-aside .education {
-  position: relative;
-  padding-top: 80px;
-}
-
-aside .education .title {
-  padding: 0 0 0 30px;
-  left: -20px;
-}
-
-aside .education div {
-  padding: 10px 0;
-}
-
-aside .skills {
-  position: relative;
-  padding-top: 80px;
-}
-
-aside .skills .title {
-  padding: 0 0 0 30px;
-  left: -20px;
-}
-
-aside .award {
-  position: relative;
-  padding-top: 80px;
-}
-
-aside .award .title {
-  padding: 0 0 0 30px;
-  left: -20px;
-}
-
 section {
-  padding: 20px 30px 20px 310px;
+  padding: 19px 60px 0;
   color: #878686;
 }
 
+ul {
+  list-style: circle;
+}
+
 section .item {
-  border-bottom: 1px solid #0b70bd;
+  /*border-bottom: 1px solid #0b70bd;*/
 }
 
 section .icon {
@@ -181,13 +69,63 @@ section .titleContainer .iconContainer {
 
 section .titleContainer .line {
   border: 1px solid #0b70bd;
-  width: 320px;
   margin-left: 20px;
+  flex: 1;
+}
+
+section .personalInfo .name {
+  font-size: 24px;
+  margin-bottom: 18px;
+}
+section .personalInfo .item {
+  border: none;
+}
+section .personalInfo .item p {
+  margin: 8px 0;
+  font-size: 16px;
+}
+section .personalInfo .info,
+section .personalInfo .connect{
+  padding-left: 20px;
+}
+
+/*section .personalInfo .lists {*/
+/*  display: flex;*/
+/*  width: 100%;*/
+/*}*/
+
+section .personalInfo .lists .row {
+  display: flex;
+  margin: 5px 0;
+}
+section .personalInfo .lists .row .circle{
+  width: 6px;
+  height: 6px;
+  border: #4b4b4b 1px solid;
+  background-color: transparent;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+section .personalInfo .lists .row .send-email{
+  margin-left: 16px;
+}
+
+section .personalInfo .lists .row .items {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+section .skill {
+  margin: 20px 10px;
+  padding-left: 20px;
+}
+section .skill li{
+  margin: 4px 0;
 }
 
 section .works .item {
   margin: 20px 10px;
-  padding-bottom: 10px;
 }
 
 section .works .item .icon {
@@ -205,6 +143,7 @@ section .works .item .links {
 section .works .item .links a {
   color: #0b70bd;
   flex: 1;
+  margin-top: 8px;
 }
 
 section .works .pic img {
@@ -252,7 +191,11 @@ section .company h4 {
 }
 
 section .company.item {
-  padding: 20px 0;
+  margin: 20px 10px 10px 10px;
+}
+section .company.item.unity {
+  border-bottom: 1px solid #0b70bd;
+  padding-bottom: 10px;
 }
 
 section .company h4 span {
@@ -269,22 +212,15 @@ section .intro .item {
   border: none;
 }
 
-/*section .company.item:last-child {*/
-/*  margin-bottom: 0;*/
-/*}*/
-
-/*section .openSource.item:last-child {*/
-/*  margin-bottom: 0;*/
-/*}*/
-
-section.openSource-container {
-  margin-top: 100px;
-  padding-bottom: 0;
-}
-
 section.worksWrapper {
   padding-bottom: 0;
+  padding-top: 0;
 }
 section.worksWrapper .sketchPad {
   margin-bottom: 0;
+}
+
+section .openSource.ui {
+  border-bottom: 1px solid #0b70bd;
+  padding-bottom: 10px;
 }
