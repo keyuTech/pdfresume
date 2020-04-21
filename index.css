@@ -24,7 +24,7 @@ main {
 }
 
 section {
-  padding: 19px 60px 0;
+  padding: 22px 60px 0;
   color: #878686;
 }
 
@@ -193,7 +193,8 @@ section .company h4 {
 section .company.item {
   margin: 20px 10px 10px 10px;
 }
-section .company.item.unity {
+section .company.item.unity,
+section .company.item.jizeng{
   border-bottom: 1px solid #0b70bd;
   padding-bottom: 10px;
 }
