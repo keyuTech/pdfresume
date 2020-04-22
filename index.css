@@ -117,7 +117,7 @@ section .personalInfo .lists .row .items {
 }
 
 section .skill {
-  margin: 20px 10px;
+  margin: 20px 10px 0;
   padding-left: 20px;
 }
 section .skill li{
@@ -193,10 +193,16 @@ section .company h4 {
 section .company.item {
   margin: 20px 10px 10px 10px;
 }
+section .company.item:last-child {
+  margin-bottom: 0;
+}
 section .company.item.unity,
 section .company.item.jizeng{
   border-bottom: 1px solid #0b70bd;
   padding-bottom: 10px;
+}
+section .company.item.jizeng {
+  padding-top: 20px;
 }
 
 section .company h4 span {
@@ -224,4 +230,12 @@ section.worksWrapper .sketchPad {
 section .openSource.ui {
   border-bottom: 1px solid #0b70bd;
   padding-bottom: 10px;
+}
+
+section.openSource-container {
+  padding-top: 12px;
+}
+
+section .works .item.openSource {
+  margin: 10px;
 }
