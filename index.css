@@ -201,8 +201,8 @@ section .company.item.jizeng{
   border-bottom: 1px solid #0b70bd;
   padding-bottom: 10px;
 }
-section .company.item.jizeng {
-  padding-top: 20px;
+section .company.item.unity .introduction {
+  padding-bottom: 2px;
 }
 
 section .company h4 span {
